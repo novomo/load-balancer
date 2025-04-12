@@ -1,0 +1,17 @@
+# Configuration file to define services and their backend servers
+
+services:
+  - name: ServiceA
+    servers:
+      - "http://localhost:8081" # Backend server 1 for ServiceA
+      - "http://localhost:8082" # Backend server 2 for ServiceA
+
+  - name: ServiceB
+    servers:
+      - "http://localhost:8083" # Backend server 1 for ServiceB
+      - "http://localhost:8084" # Backend server 2 for ServiceB
+
+  - name: ServiceC
+    servers:
+      - "http://localhost:8085" # Backend server 1 for ServiceC
+      - "http://localhost:8086" # Backend server 2 for ServiceC
